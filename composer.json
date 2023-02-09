@@ -1,0 +1,26 @@
+{
+    "name": "pebblemark/profile",
+    "description": "User update his profile and save in database.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pebblemark\\Profile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohit Tiwari",
+            "email": "mohit.tiwari@pebblemark.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"extra": {
+        "laravel": {
+            "providers": [
+			 "Pebblemark\\Profile\\ProfileServiceProvider"
+			]
+        }
+    }
+}
