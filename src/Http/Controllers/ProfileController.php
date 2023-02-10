@@ -2,7 +2,6 @@
 namespace Pebblemark\Profile\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use GuzzleHttp\Psr7\Request;
 use Pebblemark\Profile\Http\Requests\ProfileFormRequest;
 use Pebblemark\Profile\Models\Profile;
 use Pebblemark\Profile\Http\Requests\PasswordResetFormRequest;

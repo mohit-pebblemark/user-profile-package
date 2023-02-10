@@ -156,11 +156,10 @@
 						</div>
 					</div>
 					<button type="submit"
-						class="btn btn-success btn-md  mx-auto d-block my-3">UPDATE</button>
+						class="btn btn-success btn-md mx-auto d-block my-3">UPDATE</button>
 				</form>
 			</div>
 			<div id="menu1" class="container tab-pane fade mt-3">
-				
 				<form action="{{route('passwordUpdate',[Auth::user()->id])}}"
 					method="post" id="form-submit">
 					@csrf @method('PUT')
@@ -184,7 +183,8 @@
 							</div>
 						</div>
 						<div class="col-12 text-center mt-3">
-							<button type="submit" class="btn btn-success btn-md btn-square">Updade Password</button>
+							<button type="submit" class="btn btn-success btn-md btn-square">Update
+								Password</button>
 						</div>
 					</div>
 				</form>

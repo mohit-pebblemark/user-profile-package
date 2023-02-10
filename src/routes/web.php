@@ -2,7 +2,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::group([
-    'namespace' => 'Pebblemark\Profile\Http\Controllers','middleware' => ['web']
+    'namespace' => 'Pebblemark\Profile\Http\Controllers',
+    'middleware' => ['web']
 ], function () {
     Route::get('profile', 'ProfileController@profile')->name('profile')->middleware(['auth']);
     Route::put('profile', 'ProfileController@updateProfile')->name('updateProfile')->middleware(['auth']);
